@@ -1,0 +1,4 @@
+name: CliffMCAPI
+version: 13.2.21
+main: com.cliff777.mcapi.CliffAPI
+load: STARTUP
