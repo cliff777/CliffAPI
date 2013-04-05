@@ -14,15 +14,12 @@ public class Results {
 	int counter = -1;
 	
 	public boolean hasRows() {
+		counter++;
 		return counter <= rows.size() - 1;
 	}
 	
 	public Row currentRow() {
 		return rows.get(counter);
-	}
-	
-	public void next() {
-		counter++;
 	}
 	
 	public void addRow(Row r) {
