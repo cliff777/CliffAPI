@@ -11,7 +11,7 @@ import com.cliff777.mcapi.CliffAPI;
 
 public class Results {
 	ArrayList<Row> rows = new ArrayList<Row>();
-	int counter = 0;
+	int counter = -1;
 	
 	public boolean hasRows() {
 		return counter <= rows.size() - 1;

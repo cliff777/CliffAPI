@@ -29,7 +29,7 @@ public class Database {
 		try {
 			conn = DriverManager.getConnection(this.connectionURL());
 		} catch (SQLException e) {
-			CliffAPI.getAPI().getChatAPI().consoleOut("CliffAPI", "Cannot connect to mysql server...have you entered your address, username, and password to the config?");
+			CliffAPI.getAPI().getChatAPI().consoleOut("CliffAPI", "Cannot connect to mysql server...have you entered the mysql server address, username, and password to the config?");
 			e.printStackTrace();
 		}
 	}
